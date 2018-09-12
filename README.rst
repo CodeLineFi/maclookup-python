@@ -17,7 +17,7 @@ or
 
 ::
 
-    git clone <our repository>
+    git clone https://github.com/CodeLineFi/maclookup-python.git
     pip install -e /path_to_sdist/
 
 or
