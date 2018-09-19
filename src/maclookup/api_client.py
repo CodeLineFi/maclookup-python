@@ -10,7 +10,7 @@ from .requester import Requester
 
 
 class ApiClient:
-    __version = '1.0.2'
+    __version = '1.0.3'
     __url = "https://api.macaddress.io/v1"
     __separator = "/"
     __user_agent = "Python Client Library v" + __version

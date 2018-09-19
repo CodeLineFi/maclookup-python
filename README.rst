@@ -2,7 +2,7 @@
 Overview
 ========
 
-Client library for `macaddress.io <https://macaddress.io>`_ on Python
+Client library for `macaddress.io <https://macaddress.io>`_ in Python
 language.
 
 * Free software: MIT
@@ -59,8 +59,8 @@ Examples
 
 You may find some examples in the "examples" directory. To run these
 examples you need to install "maclookup" package. Then you need to create an
-account on `macaddress.io <https://macaddress.io>`_. The last step is
-defining environment variables with the value of your API key and other
+account on `macaddress.io <https://macaddress.io>`_. The last step is to
+define environment variables with the value of your API key and other
 settings.
 
 ::
@@ -72,7 +72,7 @@ settings.
 Documentation
 =============
 
-maclookup package contains the API client class **ApiClient** which
+maclookup package contains the API client class **ApiClient**, which
 implements the following functionality
 
 ApiClient methods list:
@@ -124,14 +124,14 @@ MacAddressDetails fields:
 3. transmission_type: string
 4. administration_type: string
 
-If the server returns marker of outdated API version, this library will
-write a warning to a log.
+If the server returns a marker of outdated API version, this library will
+write a warning to the log.
 
 
 Development
 ===========
 
-To install dev requirements, you need to run following commands:
+To install dev requirements, you need to run the following commands:
 
 ::
 

@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='maclookup',
-    version='1.0.2',
+    version='1.0.3',
     license='MIT',
     description='Python client library for macaddress.io API.',
     long_description='%s\n%s' % (
